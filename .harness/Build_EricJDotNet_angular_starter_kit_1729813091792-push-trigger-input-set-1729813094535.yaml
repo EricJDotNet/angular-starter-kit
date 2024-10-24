@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_EricJDotNet_angular_starter_kit_1729813091792-push-trigger-input-set
+  identifier: Build_EricJDotNet_angular_starter_kit_1729813091792pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_EricJDotNet_angular_starter_kit_1729813091792
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
