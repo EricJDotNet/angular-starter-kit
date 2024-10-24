@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_EricJDotNet_angular_starter_kit_1729813091792-pr-trigger-input-set
+  identifier: Build_EricJDotNet_angular_starter_kit_1729813091792prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_EricJDotNet_angular_starter_kit_1729813091792
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
